@@ -11,14 +11,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body> <aside>
-    <img src="static/main/img/ampers.png" alt="лого">
+    <img src="static/main/img/amp.png" alt="лого">
     <span class="logo">MyApp</span>
     <h3>Навигация</h3>
-    <ul>
-        <a href=""><li><i class="fa-solid fa-house"></i>Главная</li></a>
-        <a href=""><li><i class="fa-solid fa-address-card"></i>Про нас</li></a>
+<!--    <ul>
+        <a href="{% url 'home' %}"><li><i class="fa-solid fa-house"></i>Главная</li></a>
+        <a href="{% url 'about' %}"><li><i class="fa-solid fa-address-card"></i>Про нас</li></a>
         <a href=""><li><i class="fa-solid fa-paper-plane"></i>Контакты</li></a>
-    </ul>
+    </ul>-->
+     <ul>
+            <a href="{% url 'home' %}"><li><i class="bi bi-house-door-fill"></i> Главная</li></a>
+            <a href="{% url 'about' %}"><li><i class="bi bi-info-circle-fill"></i> Про нас</li></a>
+            <a href="{% url 'news_home' %}"><li><i class="bi bi-send-fill"></i> Новости</li></a>
+            <a href=""><li><i class="bi bi-send-fill"></i> Контакты</li></a>
+
+        </ul>
+        <style>
+          a {
+          text-decoration: none;
+          }
+        </style>
 
 </aside>
     <main>

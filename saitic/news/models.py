@@ -9,3 +9,8 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+    # class Meta:
+    #     verbose_name = 'Новость'
+    #     verbose_name_popular = 'Новости'
+
