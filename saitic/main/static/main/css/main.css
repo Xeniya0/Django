@@ -56,11 +56,15 @@ main .features p {max-width: 400px; margin 20px auto;
 margin-left: 350px;}
 
 .alert-warning {
-/*
     float: left;
-*/
     clear: both;
-    width: 1150px;
-    margin: 20px ;
+    width: 400px;
+    margin: 20px 34%;
     text-align: left;
 }
+
+form {
+    margin-left: 28%;
+    width: 500px;
+    margin-top: 50px;
+    }

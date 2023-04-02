@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body> <aside>
-    <img src="static/main/img/amp.png" alt="лого">
+    <img src="/static/main/img/amp.png" alt="лого">
     <span class="logo">MyApp</span>
     <h3>Навигация</h3>
 <!--    <ul>
@@ -24,6 +24,7 @@
             <a href="{% url 'about' %}"><li><i class="bi bi-info-circle-fill"></i> Про нас</li></a>
             <a href="{% url 'news_home' %}"><li><i class="bi bi-send-fill"></i> Новости</li></a>
             <a href=""><li><i class="bi bi-send-fill"></i> Контакты</li></a>
+            <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="bi bi-send-fill"></i>Добавить запись</li></a>
 
         </ul>
         <style>
