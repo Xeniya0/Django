@@ -26,7 +26,7 @@ SECRET_KEY = ''
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+# ...
 
 # Application definition
 
